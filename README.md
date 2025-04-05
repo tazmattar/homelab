@@ -32,7 +32,7 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 ## 🗺️ Network Layout
 
 📂 See [`network/pantry-network.md`](./pantry-network.md) for full documentation  
-📜 View the [Mermaid Diagram](./topology.mmd) for a code-based network map  
+📜 View the [Mermaid Diagram](./topology.md) for a code-based network map  
 🖼️ Or open the [Freeform PDF Topology](./topology.pdf) for a visual reference
 
 ---
@@ -55,7 +55,7 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 - [ ] Add automation playbooks (Ansible)
 - [ ] Monitor services via Prometheus + Grafana
 - [ ] Create Home Assistant automations
-- [ ] Publish blog posts documenting each stage (see: [Pantry Network blog](#))
+- [ ] Publish blog posts documenting each stage (see: [Pantry Network blog](pantrynetwork.io))
 
 ---
 
