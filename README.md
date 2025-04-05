@@ -54,7 +54,6 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 
 - [ ] Add automation playbooks (Ansible)
 - [ ] Monitor services via Prometheus + Grafana
-- [ ] Create Home Assistant automations
 - [ ] Publish blog posts documenting each stage (see: [Pantry Network blog](pantrynetwork.io))
 
 ---
