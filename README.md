@@ -1,1 +1,59 @@
-# homelab
+# Pantry Network – Homelab Overview
+
+Welcome to the **Pantry Network**, a purpose-built homelab designed for network experimentation, studio productivity, and service automation. This setup supports everything from Proxmox clustering to smart home integration and studio backup workflows.
+
+---
+
+## 📌 Key Goals
+- Maintain a reliable, high-speed home network
+- Host virtualized services (Proxmox Cluster)
+- Ensure data redundancy with dual-linked NAS
+- Segment traffic with VLANs for performance and security
+- Monitor and manage power usage with UPS integration
+- Serve studio needs (Mac Mini with Pro Tools)
+- Document everything for reproducibility and learning
+
+---
+
+## 🧱 Core Infrastructure
+
+- **UDM Pro SE** as the primary router/firewall
+- **UniFi Switches** (2.5G, PoE, SFP+) handle segmentation and performance
+- **Proxmox Cluster** on 3 x Dell Optiplex 3040 MFF nodes
+- **Proxmox Backup Server** for snapshotting and nightly backups
+- **UNAS Pro NAS** (10GbE + 1GbE) for studio archive storage
+- **Synology NAS (Broadstairs)** for home backups
+- **Mac Mini M4** for studio production and daily tasks
+- **Pi-hole** for DNS ad-blocking and redundancy (VM + HA)
+- **APC UPS** for power protection and monitoring
+
+---
+
+## 🗺️ Network Layout
+
+📂 See [`network/pantry-network.md`](./network/pantry-network.md) for full documentation  
+📜 View the [Mermaid Diagram](./network/topology.mmd) for a code-based network map  
+🖼️ Or open the [Freeform PDF Topology](./network/topology.pdf) for a visual reference
+
+---
+
+## 🔄 VLANs & Subnets
+
+| VLAN | Purpose         | Subnet           |
+|------|------------------|------------------|
+| 20   | iSCSI Storage    | 10.6.1.0/24      |
+| 30   | Homelab Devices  | 10.29.29.0/24    |
+
+---
+
+## 🚀 What's Next?
+
+- [ ] Add automation playbooks (Ansible)
+- [ ] Monitor services via Prometheus + Grafana
+- [ ] Create Home Assistant automations
+- [ ] Publish blog posts documenting each stage (see: [Pantry Network blog](#))
+
+---
+
+Stay tuned as I expand the network and explore new tools. This repo will track it all.
+
