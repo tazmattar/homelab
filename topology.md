@@ -15,7 +15,7 @@ graph TD
     AP1[Bedroom AP]
     AP2[Living Room AP]
     AP3[Studio AP]
-    AP4[TV IoT AP]
+    AP4[IoT AP]
     PRN[Printer]
     PC[Studio PC]
 
