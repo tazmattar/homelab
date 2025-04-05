@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
     ISP[Virgin Media ISP]
-    UDM[UDM Pro SE]
+    UDM[UDM Pro]
     FLEX[USW Flex 2.5G Switch]
     S16[UniFi Switch 16 PoE]
     S8[UniFi Switch Pro 8 PoE]
