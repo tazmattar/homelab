@@ -37,14 +37,18 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 
 ---
 
-## 🔄 VLANs & Subnets
 
-| VLAN | Purpose         | Subnet           |
-|------|------------------|------------------|
-| 20   | iSCSI Storage    | 10.6.1.0/24      |
-| 30   | Homelab Devices  | 10.29.29.0/24    |
+## 🔄 VLANs
 
----
+| VLAN ID | Name             |
+|---------|------------------|
+| 1       | Core Network     |
+| 2       | VoIP Network     |
+| 20      | Homelab/Studio   |
+| 30      | House            |
+| 40      | IoT Devices      |
+| 50      | Pentesting       |
+
 
 ## 🚀 What's Next?
 
@@ -55,5 +59,4 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 
 ---
 
-Stay tuned as I expand the network and explore new tools. This repo will track it all.
-
+Stay tuned as I expand the network and explore new tools.
