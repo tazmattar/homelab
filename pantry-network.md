@@ -6,9 +6,9 @@ A robust home network segmented into House and Studio zones. Managed by a UDM Pr
 ---
 
 ## 🌐 Network Topology
-- **Router**: UniFi Dream Machine Pro SE (10.28.28.1)
+- **Router**: UniFi Dream Machine Pro
 - **Main Switches**:
-  - USW Flex 2.5G 5-Port (Core switch for Proxmox + Mac Mini)
+  - USW Flex 2.5G 5-Port (Core switch for Proxmox + Mac Mini M4)
   - UniFi Switch 16 PoE (Studio switching)
   - UniFi Switch Pro 8 PoE (House switching)
 
@@ -31,9 +31,9 @@ A robust home network segmented into House and Studio zones. Managed by a UDM Pr
 | AP Location     | Switch          | VLAN | Notes                    |
 |------------------|------------------|-------|---------------------------|
 | Bedroom AP       | Switch Pro 8 PoE | 30    | For wireless in house     |
-| Living Room AP   | Switch Pro 8 PoE | 30    | For smart TV + IoT        |
+| Living Room AP   | Switch Pro 8 PoE | 30    | For smart TV        |
 | Studio AP        | Switch 16 PoE    | 30    | For studio devices        |
-| TV IoT AP        | Switch 16 PoE    | 30    | Dedicated to smart TV     |
+| IoT AP        | Switch 16 PoE    | 30    | Dedicated to IoT devices     |
 
 ---
 
@@ -53,7 +53,7 @@ A robust home network segmented into House and Studio zones. Managed by a UDM Pr
 ## ⚡ Power & Monitoring
 
 - **APC UPS** powers the Proxmox Cluster and is connected for monitoring.
-- UDM Pro SE and switches are on battery-backed outlets.
+- UDM Pro and switches are on battery-backed outlets.
 
 ---
 
