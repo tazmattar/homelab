@@ -31,9 +31,9 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 
 ## 🗺️ Network Layout
 
-📂 See [`network/pantry-network.md`](./network/pantry-network.md) for full documentation  
-📜 View the [Mermaid Diagram](./network/topology.mmd) for a code-based network map  
-🖼️ Or open the [Freeform PDF Topology](./network/topology.pdf) for a visual reference
+📂 See [`network/pantry-network.md`](./pantry-network.md) for full documentation  
+📜 View the [Mermaid Diagram](./topology.mmd) for a code-based network map  
+🖼️ Or open the [Freeform PDF Topology](./topology.pdf) for a visual reference
 
 ---
 
