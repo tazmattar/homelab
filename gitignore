@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+
+# Logs
+*.log
+
+# Mermaid exports
+*.svg
+*.png
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Node or markdown preview artifacts
+node_modules/
+.markdown-preview/
