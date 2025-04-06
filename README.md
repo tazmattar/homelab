@@ -4,7 +4,7 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 
 ---
 
-## 📌 Key Goals
+## Key Goals
 - Maintain a reliable, high-speed home network
 - Host virtualized services (Proxmox Cluster)
 - Ensure data redundancy with dual-linked NAS
@@ -15,7 +15,7 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 
 ---
 
-## 🧱 Core Infrastructure
+## Core Infrastructure
 
 - **UDM Pro SE** as the primary router/firewall
 - **UniFi Switches** (2.5G, PoE, SFP+) handle segmentation and performance
@@ -29,7 +29,7 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 
 ---
 
-## 🗺️ Network Layout
+## Network Layout
 
 📂 See [`network/pantry-network.md`](./pantry-network.md) for full documentation  
 📜 View the [Mermaid Diagram](./topology.md) for a code-based network map  
@@ -38,7 +38,7 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 ---
 
 
-## 🔄 VLANs
+## VLANs
 
 | VLAN ID | Name             |
 |---------|------------------|
@@ -50,7 +50,7 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 | 50      | Pentesting       |
 
 
-## 🚀 What's Next?
+## What's Next?
 
 - [ ] Add automation playbooks (Ansible)
 - [ ] Monitor services via Prometheus + Grafana
