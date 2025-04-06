@@ -17,11 +17,11 @@ Welcome to the **Pantry Network**, a purpose-built homelab designed for network 
 
 ## Core Infrastructure
 
-- **UDM Pro SE** as the primary router/firewall
+- **UDM Pro** as the primary router/firewall
 - **UniFi Switches** (2.5G, PoE, SFP+) handle segmentation and performance
 - **Proxmox Cluster** on 3 x Dell Optiplex 3040 MFF nodes
 - **Proxmox Backup Server** for snapshotting and nightly backups
-- **UNAS Pro NAS** (10GbE + 1GbE) for studio archive storage
+- **UNAS Pro** (10GbE + 1GbE) for studio archive storage
 - **Synology NAS (Broadstairs)** for home backups
 - **Mac Mini M4** for studio production and daily tasks
 - **Pi-hole** for DNS ad-blocking and redundancy (VM + HA)
